@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . "/header.php";
 require_once __DIR__ . "/functions.php";
+require_once __DIR__ . "/header.php";
 ?>
 
 
@@ -161,8 +161,17 @@ require_once __DIR__ . "/functions.php";
 
                             <p><b>Video tutorial:</b></p>
                             <p>
-                                <iframe src="https://www.youtube.com/embed/RiXdDGk_XCU" allowfullscreen="" width="100%" height="460"></iframe>
+                                <iframe
+                                        width="100%"
+                                        height="460"
+                                        src="https://www.youtube.com/embed/videoseries?list=PLSR3AlpVWfs6JQ34hPfIyyPkqyaHPPZwf&index=1"
+                                        title="YouTube playlist"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                </iframe>
                             </p>
+                            <a target="_blank" href="https://www.youtube.com/playlist?list=PLSR3AlpVWfs6JQ34hPfIyyPkqyaHPPZwf">Watch the Full Playlist on YouTube</a>
                         </section>
                     </div>
 

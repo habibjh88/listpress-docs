@@ -31,7 +31,7 @@
 			</li>
 
 			<li><a class="nav-link" href="#setHomeBlogPage">Set Home and Blog Page</a></li>
-			<li><a class="nav-link" href="#directory-listing-setup">Directory / Listing Setup</a></li>
+			<li><a class="nav-link featured" href="#directory-listing-setup">Directory / Listing Setup</a></li>
 			<li><a class="nav-link" href="#customizeMenu">Customize Menu</a>
 				<ol>
 					<li>

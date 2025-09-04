@@ -848,6 +848,18 @@ section.active h3 {
     text-decoration: underline
 }
 
+.nav-link.featured {
+    background-color: var(--primary-color);
+    color: #FFF !important;
+    line-height: 1;
+    padding: 7px 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.nav-link.featured:hover {
+    background: #212121;
+}
+
 li img {
     display: block;
     margin-top: 20px
