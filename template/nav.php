@@ -27,99 +27,99 @@
 			</li>
 
 			<li>
-				<a class="nav-link" href="#section-4">Importing Demo Contents</a>
+				<a class="nav-link" href="#ImportingDemoContents">Importing Demo Contents</a>
 			</li>
 
-			<li><a class="nav-link" href="#section-6">Set Home and Blog Page</a></li>
-			<li><a class="nav-link" href="#section-7">Customize Menu</a>
+			<li><a class="nav-link" href="#setHomeBlogPage">Set Home and Blog Page</a></li>
+			<li><a class="nav-link" href="#directory-listing-setup">Directory / Listing Setup</a></li>
+			<li><a class="nav-link" href="#customizeMenu">Customize Menu</a>
 				<ol>
 					<li>
 						<a class="nav-link" href="#section-7-1">Multi Column Menu</a>
 					</li>
 				</ol>
 			</li>
-			<li><a class="nav-link" href="#section-8">Change Site Title and Favicon</a></li>
-			<li><a class="nav-link" href="#section-9">Change Global Colors</a></li>
-			<li><a class="nav-link" href="#section-10">Change Logo</a></li>
-			<li><a class="nav-link" href="#section-11">Change Typography</a></li>
+			<li><a class="nav-link" href="#cngSiteTitleFavicon">Change Site Title and Favicon</a></li>
+			<li><a class="nav-link" href="#chgGlobalColor">Change Global Colors</a></li>
+			<li><a class="nav-link" href="#logoSettings">Logo Settings</a></li>
+			<li><a class="nav-link" href="#typographySettings">Typography Settings</a></li>
 			<li>
-				<a class="nav-link" href="#section-12-1">Customizer Options</a>
+				<a class="nav-link" href="#customizerOptions">Customizer Options</a>
 				<ol>
 					<li>
-						<a class="nav-link" href="#section-12-1">General</a>
+						<a class="nav-link" href="#section-12-1">Site Identity</a>
+					</li>
+                    <li>
+						<a class="nav-link" href="#section-12-2">General</a>
 					</li>
 					<li>
-						<a class="nav-link" href="#section-12-2">Header</a>
+						<a class="nav-link" href="#section-12-3">Header</a>
 					</li>
 					<li>
-						<a class="nav-link" href="#section-breadcrumb">Breadcrumb</a>
+						<a class="nav-link" href="#section-breadcrumb">Banner - Breadcrumb</a>
 					</li>
-					<li>
-						<a class="nav-link" href="#section-12-3">Footer</a>
-					</li>
+
 					<li>
 						<a class="nav-link" href="#section-typography">Typography</a>
 					</li>
+                    <li><a class="nav-link" href="#section-contact-social">Contact and Socials</a></li>
+                    <li><a class="nav-link" href="#section-color-customizer">Colors Settings</a></li>
 					<li>
 						<a class="nav-link" href="#section-blog-archive">Blog Settings</a>
 					</li>
 					<li>
-						<a class="nav-link" href="#section-blog-details">Post Details Settings</a>
+						<a class="nav-link" href="#section-blog-details">Blog Details Settings</a>
+					</li>
+
+                    <li>
+						<a class="nav-link" href="#section-listing-archive">Listing Archive Settings</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#section-listing-details">Listing Details Settings</a>
 					</li>
 					<li>
 						<a class="nav-link" href="#section-layout-section">Layout Settings</a>
 						<ol>
-							<li><a class="nav-link" href="#section-customizer-12-8-1">Blog Layout</a></li>
-							<li><a class="nav-link" href="#section-customizer-12-8-2">Single Post Layout</a></li>
-							<li><a class="nav-link" href="#section-customizer-12-8-3">Page Layouts</a></li>
+                            <li><a class="nav-link" href="#section-customizer-12-8-3">Page Layouts</a></li>
+                            <li><a class="nav-link" href="#section-customizer-12-8-1">Blog Layout</a></li>
+                            <li><a class="nav-link" href="#section-customizer-12-8-2">Single Post Layout</a></li>
 							<li><a class="nav-link" href="#section-customizer-12-8-4">Error Layout</a></li>
 							<li><a class="nav-link" href="#section-customizer-12-8-5">Listing Archive Layout</a></li>
 							<li><a class="nav-link" href="#section-customizer-12-8-6">Listing Single Layout</a></li>
-							<li><a class="nav-link" href="#section-customizer-12-8-7">Agent Archive Layout</a></li>
-							<li><a class="nav-link" href="#section-customizer-12-8-8">Agent Single Layout</a></li>
-							<li><a class="nav-link" href="#section-customizer-12-8-9">Store Archive Layout</a></li>
 						</ol>
 					</li>
-					<li><a class="nav-link" href="#section-color-customizer">Color</a></li>
-					<li>
-						<a class="nav-link" href="#section-listing-global-customizer">Listing Settings</a>
-						<ol>
-							<li><a class="nav-link" href="#section-listing-global-customizer-1">Property Details Layout</a></li>
-							<li><a class="nav-link" href="#section-listing-price-shorthand">Listing Price Shorthand</a></li>
-						</ol>
-
-					</li>
-					<li><a class="nav-link" href="#section-12-6-2">Contact Info Settings</a></li>
-					<li><a class="nav-link" href="#section-newsletter-section">Newsletter Section</a></li>
-					<li><a class="nav-link" href="#section-error-section">Error Page</a></li>
+                    <li>
+                        <a class="nav-link" href="#section-footer-customize">Footer</a>
+                    </li>
+                    <li><a class="nav-link" href="#section-error-customize">Error Page</a></li>
 
 				</ol>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-13">Elementor Widgets</a>
+				<a class="nav-link" href="#elementorWidgets">Elementor Widgets</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-14">Setting up Contact Form</a>
+				<a class="nav-link" href="#contactForm">Contact Form</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-15">Built-in CSS Classes</a>
+				<a class="nav-link" href="#builtinCSSClasses">Built-in CSS Classes</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-16">Translating Theme</a>
+				<a class="nav-link" href="#translatingTheme">Translating Theme</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-17">Updating Theme</a>
+				<a class="nav-link" href="#updateTheme">Updating Theme</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-18">Demo Content installation failed</a>
+				<a class="nav-link" href="#demoContentInstall">Demo Content installation failed</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-19">404 Error in all pages</a>
+				<a class="nav-link" href="#error404">404 Error in all pages</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#section-20">Contact</a>
+				<a class="nav-link" href="#contactUs">Contact</a>
 			</li>
-			<li><a class="nav-link" href="#section-12-6-3">Where is My Purchase Code?</a></li>
+			<li><a class="nav-link" href="#purchaseCode">Where is My Purchase Code?</a></li>
 		</ol>
 	</nav>
 </aside>

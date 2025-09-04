@@ -671,6 +671,7 @@ input:focus {
     border: 1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 50px;
+    background-color: #f3f6f9;
 }
 
 .main .image-wrapper {
@@ -810,7 +811,7 @@ section.active h3 {
 
 .sidebar-navigation ol li a::before {
     counter-increment: section;
-    content: counters(section, ". ") ". "
+    content: counters(section, ". ") ". ";
 }
 
 .back-to-top {

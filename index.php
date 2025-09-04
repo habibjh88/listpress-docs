@@ -117,7 +117,7 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-4">
+                        <section id="ImportingDemoContents">
                             <h3>4. Importing Demo Contents</h3>
 
                             <h4>One Click Demo Import:</h4>
@@ -136,23 +136,8 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-5">
-                            <h3>5. Directory / Listing Setup</h3>
-                            <p>We use the <strong>Classified Listing Pro</strong> plugin to manage directory and listing functionalities, and the <strong>Classified Listing Store</strong> plugin to handle membership features. For detailed guidance, please refer to the official plugin documentation and tutorials.</p>
-
-                            <b>Documentation link:</b>
-                            <a target="_blank" href="https://www.radiustheme.com/docs/classified-listing/">https://www.radiustheme.com/docs/classified-listing/</a>
-
-                            <p><b>Video tutorial:</b></p>
-                            <p>
-                                <iframe src="https://www.youtube.com/embed/RiXdDGk_XCU" allowfullscreen="" width="100%" height="460"></iframe>
-                            </p>
-                        </section>
-                    </div>
-
-                    <div class="section-wrapper">
-                        <section id="section-6">
-                            <h3>6. Set Home and Blog Page</h3>
+                        <section id="setHomeBlogPage">
+                            <h3>5. Set Home and Blog Page</h3>
                             <p class="notice"><strong>Note:</strong> If you have already imported the demo content, you can skip this section because the homepage and blog page are pre-selected in the demo. However, if you wish to change them, please follow the steps below.</p>
                             <p>To set the default Home and Blog pages, log in to your WordPress Admin Dashboard and navigate to
                                 <strong>Dashboard &gt; Settings &gt; Reading</strong>.
@@ -167,7 +152,22 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-7">
+                        <section id="directory-listing-setup">
+                            <h3>6. Directory / Listing Setup</h3>
+                            <p>We use the <strong>Classified Listing Pro</strong> plugin to manage directory and listing functionalities, and the <strong>Classified Listing Store</strong> plugin to handle membership features. For detailed guidance, please refer to the official plugin documentation and tutorials.</p>
+
+                            <b>Documentation link:</b>
+                            <a target="_blank" href="https://www.radiustheme.com/docs/classified-listing/">https://www.radiustheme.com/docs/classified-listing/</a>
+
+                            <p><b>Video tutorial:</b></p>
+                            <p>
+                                <iframe src="https://www.youtube.com/embed/RiXdDGk_XCU" allowfullscreen="" width="100%" height="460"></iframe>
+                            </p>
+                        </section>
+                    </div>
+
+                    <div class="section-wrapper">
+                        <section id="customizeMenu">
                             <h3>7. Customize Menu</h3>
                             <p>To customize the menu, navigate to <strong>Appearance &gt; Menus</strong> and follow these steps:</p>
                             <ol>
@@ -227,7 +227,7 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-8">
+                        <section id="cngSiteTitleFavicon">
                             <h3>8. Change Site Title and Favicon</h3>
                             <p>To update your site title and favicon, navigate to
                                 <strong>Dashboard &gt; Appearance &gt; Customize &gt; Site Identity</strong>. Then, follow these steps:</p>
@@ -241,14 +241,14 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-9">
+                        <section id="chgGlobalColor">
                             <h3>9. Site Colors Settings</h3>
                             <p>To update the global colors of your site, navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Colors</strong>. You will find several color groups, such as <b>Site Color</b>, <b>Top Bar Color</b>, <b>Header Colors</b>, and more. Select your desired colors from these options to customize the appearance of your website.</p>
                         </section>
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-10">
+                        <section id="logoSettings">
                             <h3>10. Logo Settings</h3>
                             <p>To update the site logo, navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Site Identity</strong>. We have added additional fields for logo customization:</p>
                             <ol>
@@ -261,28 +261,33 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-11">
+                        <section id="typographySettings">
                             <h3>11. Typography Settings</h3>
                             <p>To customize the typography of your site, navigate to <strong>Dashboard &gt; Appearance &gt; Customize &gt; Typography</strong>. You will find typography settings grouped by <b>Body</b>, <b>Headings</b>, and <b>Menu</b> for easier management.</p>
                         </section>
                     </div>
 
-	                <?php require_once __DIR__ . '/template/customize.php'; ?>
+					<?php require_once __DIR__ . '/template/customize.php'; ?>
 
                     <div class="section-wrapper">
-                        <section class="image-no-100" id="section-13">
+                        <section class="image-no-100" id="elementorWidgets">
                             <h3>13. Elementor Widgets</h3>
-                            <p>Elementor Page Builder has a lot of built-in widgets by default. But for your convenience
-                                we've created several custom Elementor Widgets that you can use in your website and extend
-                                website functionality. You can find them under <b><i>RADIUSTHEME ELEMENTS</i></b> section on
-                                Elementor edit mode.</p>
-                            <img src="assets/images/doc/13.png" alt="11.8.2" class="doc-image">
+                            <p>
+                            <p>
+                                Elementor Page Builder comes with many built-in widgets by default.
+                                For added convenience, we have created several custom Elementor Widgets to extend your website's functionality.
+                                You can find them under the <strong><i>RadiusTheme Elements</i></strong> section in Elementor edit mode.
+                            </p>
+                            <p>
+                                Additionally, we have integrated the <strong>Classified Listing Toolkits</strong> to provide Elementor widgets specifically for listing and directory functionality.
+                            </p>
+							<?php listpress_image_print( '13', '13' ); ?>
                         </section>
                     </div>
 
                     <div class="section-wrapper">
-                        <section class="image-no-100" id="section-14">
-                            <h3>14. Setting up Contact Form</h3>
+                        <section class="image-no-100" id="contactForm">
+                            <h3>14. Contact Form</h3>
                             <p>We are using plugin <b>WP Fluent Forms</b> for contact functionality. You can see their <a
                                         href="https://wpmanageninja.com/docs/fluent-form/" title="Fluent Form Documentation"
                                         target="_blank">documentation</a> for better understanding.</p>
@@ -307,68 +312,59 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section class="image-no-100" id="section-15">
+                        <section class="image-no-100" id="builtinCSSClasses">
                             <h3>15. Built-in CSS Classes (Advanced)</h3>
-                            <p>You can use the following built-in css classes if needed:</p>
+                            <p>You can use the following built-in CSS classes as needed:</p>
                             <ul class="special-list">
-
-                                <li><strong>primary-color</strong>: set primary color</li>
-                                <li><strong>secondery-color</strong>: set secondery color</li>
-                                <li><strong>bg-primary</strong>: set primary color background</li>
-                                <li><strong>bg-secondery</strong>: set secondery color background</li>
-                                <li><strong>rt-btn</strong>: general button style</li>
+                                <li><strong>.primary-color</strong>: Apply the primary color.</li>
+                                <li><strong>.secondery-color</strong>: Apply the secondary color.</li>
+                                <li><strong>.bg-primary</strong>: Set the background to the primary color.</li>
+                                <li><strong>.bg-secondery</strong>: Set the background to the secondary color.</li>
+                                <li><strong>.site-radius</strong>: Applies a site-wide 12px border radius.</li>
+                                <li><strong>.btn-radius</strong>: Applies a 5px border radius to buttons.</li>
+                                <li><strong>.pointer-events-none</strong>: Disables pointer events for the element.</li>
+                                <li><strong>.height-100</strong>: Sets the height to 100% (useful for images in Elementor).</li>
+                                <li><strong>.center-center</strong>: Centers the item within its Elementor container.</li>
+                                <li><strong>.mobile-hide</strong>: Hides the element on mobile devices.</li>
+                                <li><strong>.listpress-negative-150</strong>: Applies a negative margin of 150px left and right (values like 200, 300px also work; effective only on screens wider than 1400px).</li>
                             </ul>
                         </section>
                     </div>
                     <div class="section-wrapper">
 
-                        <section id="section-16">
+                        <section id="translatingTheme">
                             <h3>16. Translating Theme</h3>
-                            <p>You can translate this theme to another language easily. You have to translate several things
-                                for your website to work properly:</p>
+                            <p>
+                                You can translate this theme into another language easily. To ensure your website functions properly, translate the following components:
+                            </p>
                             <ul style="font-weight:bold;">
                                 <li>Theme: Listpress</li>
                                 <li>Plugin: Listpress Core</li>
                                 <li>Plugin: Classified Listing Pro</li>
                                 <li>Plugin: Classified Listing Store</li>
                             </ul>
-                            <p>There are many tools available for translation. But the easiest way is to use plugin "<b>Loco
-                                    Translate</b>". Using this plugin, you can literally translate any WordPress themes or
-                                plugins if it supports translation.</p>
-                            <p class="mt30"><b>--- Here's a step by step tutorial about translating any themes and plugins
-                                    using "Loco Translate":</b></p>
-                            <p class="mt30"><b><u>Step 1:</u></b> Install and activate plugin "Loco Translate".</p>
-                            <p class="mt10"><img src="assets/images/doc/section-14.jpg" alt="demo-14"></p>
-                            <p class="mt30"><b><u>Step 2:</u></b> Select the Theme or Plugin you want to translate from
-                                "Loco Translate" menu.</p>
-                            <p class="mt30"><b><u>Step a:</u></b> Theme Translate</p>
-                            <p class="mt10"><img src="assets/images/doc/section-14.1.png" alt="14.1"></p>
-                            <p class="mt30"><b><u>Step b:</u></b> Plugin Translate</p>
-                            <p class="mt10"><img src="assets/images/doc/section-14.1.1.png" alt="14.1.1"></p>
-                            <p class="mt10"><img src="assets/images/doc/section-14.2.png" alt="14.2"></p>
-                            <p class="mt30"><b><u>Step 3:</u></b> Click on <b><i>New language</i></b> link.</p>
-                            <p class="mt10"><img src="assets/images/doc/section-14.3.png" alt="14.3"></p>
-                            <p class="mt30"><b><u>Step 4:</u></b> Select your preferred language, and also select your
-                                location as "System". Then click on "Start Translating" button.</p>
-                            <p class="mt10"><img src="assets/images/doc/section-14.4.jpg" alt="14.4"></p>
-                            <p class="mt30"><b><u>Step 5:</u></b> Click on the "Sync" button for the first time. Then start
-                                translating strings like the image below.</p>
-                            <p>Here's a quick video tutorial about how to use <b>Loco Translate</b>:</p>
                             <p>
-                                <iframe width="640" height="360" src="https://www.youtube.com/embed/3Fohy96uSzY"
-                                        allowfullscreen></iframe>
+                                There are many tools available for translation, but the easiest way is to use the <strong>Loco Translate</strong> plugin.
+                                This plugin allows you to translate any WordPress theme or plugin that supports translation.
                             </p>
+                            <p>Here's a quick video tutorial on how to use <strong>Loco Translate</strong>:</p>
+                            <p>
+                                <iframe width="100%" height="460" src="https://www.youtube.com/embed/3Fohy96uSzY" allowfullscreen></iframe>
+                            </p>
+
+                            Plugin Link: <a href="https://wordpress.org/plugins/loco-translate/">https://wordpress.org/plugins/loco-translate/</a>
                         </section>
                     </div>
+
                     <div class="section-wrapper">
-                        <section id="section-17">
+                        <section id="updateTheme">
                             <h3>17. Updating Theme</h3>
                             <p>Occationally we provide updates which includes new features and bugfixes. Updating WordPress
                                 theme is standard WordPress functionality.</p>
                             <p class="mt30" style="color:red;"><b><u>Before Updating Theme</u></b>:</p>
                             <div style="color:red;"><i><b>** Before updating please make sure to keep a backup of your
                                         installed theme and plugins (eg. Listpress Core) to be on safe side.</b></i></div>
-                            <p>You can use this plugin to keep the backup: <a target="_blank" href="https://wordpress.org/plugins/wp-theme-plugin-download/">https://wordpress.org/plugins/wp-theme-plugin-download/</a>
+                            <p>You can use this plugin to keep the backup: <a target="_blank" href="https://wordpress.org/plugins/download-plugins-dashboard/">https://wordpress.org/plugins/wp-theme-plugin-download/</a>
                             </p>
                             <p class="mt30">There are few ways to update WordPress theme. You can follow any of the methods
                                 described below:</p>
@@ -380,8 +376,8 @@ require_once __DIR__ . "/functions.php";
                                 </li>
                                 <li>From WordPress Admin Panel, navigate to <b>"Envato Market"</b> menu.</li>
                                 <li>In this page, you'll find a field for insering Envato Token. Insert your Envato Token
-                                    Code from there. You can generate this code from this link: <a
-                                            href="https://build.envato.com/create-token/?purchase:download=t&purchase:verify=t&purchase:list=t">https://build.envato.com/create-token/?purchase:download=t&purchase:verify=t&purchase:list=t</a>.<br><i>Remember,
+                                    Code from there. You can generate this code from this link: <a target="_blank"
+                                                                                                   href="https://build.envato.com/create-token/?purchase:download=t&purchase:verify=t&purchase:list=t">https://build.envato.com/create-token/?purchase:download=t&purchase:verify=t&purchase:list=t</a>.<br><i>Remember,
                                         while generating the token, you have to login using the same envato id which you
                                         used to purchase theme.</i></li>
                                 <li>After completed the above steps successfully, Navigate to <b>Appearance -> Themes</b>.
@@ -391,19 +387,20 @@ require_once __DIR__ . "/functions.php";
                             </ol>
                             <p>Here's a quick video tutorial explaining this method:</p>
                             <p>
-                                <iframe width="640" height="360" src="https://www.youtube.com/embed/fhRFhXnuP1I"
-                                        allowfullscreen></iframe>
+                                <iframe width="100%" height="460" src="https://www.youtube.com/embed/fhRFhXnuP1I" allowfullscreen></iframe>
                             </p>
-                            <p class="mt30"><b><u>Method 2: By Uploading zip File</u></b></p>
+                            <p class="mt30"><strong><u>Method 2: By Uploading ZIP File</u></strong></p>
                             <ol>
-                                <li>From WordPress Admin Panel, Navigate to <b>Appearance -> Themes</b>.</li>
-                                <li>Activate any other theme (eg. Twenty Seventeen) than the current one.</li>
-                                <li>Delete <b><i>Listpress</i></b> Theme.</li>
-                                <li>Now you have to upload the updated theme zip file. To do this, Navigate to <b>Appearance
-                                        -> Themes -> Add New -> Upload</b>. Go to browse, and select the zipped theme folder.
-                                    Hit "Install Now" and the theme will be uploaded and installed.
+                                <li>From the WordPress Admin Panel, navigate to <strong>Appearance &gt; Themes</strong>.</li>
+                                <li>Click the <strong>Add Theme</strong> button at the top of the page, then select <strong>Upload Theme</strong>.</li>
+                                <li>Upload the Listpress update ZIP file and install it.</li>
+                                <li>
+                                    Once the installation is complete, you may see the message
+                                    <em>"Destination folder already exists"</em>.
+                                    Click <strong>"Replace installed with uploaded"</strong> to update the current theme with the new version.
                                 </li>
                             </ol>
+
                             <p><b><u>Method 3: By FTP</u></b></p>
                             <ol>
                                 <li>Using your FTP client, navigate to "/wp-content/themes/" folder on your server and
@@ -420,7 +417,7 @@ require_once __DIR__ . "/functions.php";
 
                     </div>
                     <div class="section-wrapper">
-                        <section id="section-18">
+                        <section id="demoContentInstall">
                             <h3>18. Demo Content installation failed</h3>
                             <p>This is a hosting issue. In most hostings demo installation will work fine. But some hostings
                                 block certain permissions which may cause this issue. If this happens to you, you can
@@ -430,7 +427,7 @@ require_once __DIR__ . "/functions.php";
                     </div>
 
                     <div class="section-wrapper">
-                        <section id="section-19">
+                        <section id="error404">
                             <h3>19. 404 Error in all pages</h3>
                             <p>If you face this type of issue, please update your permalink. To update permalink, navigate
                                 to <b>Settings -> Permalink</b> and then click on <b>Save Settings</b> button.</p>
@@ -439,7 +436,7 @@ require_once __DIR__ . "/functions.php";
 
                     </div>
                     <div class="section-wrapper">
-                        <section id="section-20">
+                        <section id="contactUs">
                             <h3>20. Contact</h3>
                             <p style="color:red;font-weight:bold;">If you face any issue please contact us at
                                 <a href="mailto:support@radiustheme.com">support@radiustheme.com</a>. We provide 15 hours
@@ -449,9 +446,10 @@ require_once __DIR__ . "/functions.php";
                         </section>
 
                     </div>
+
                     <div class="section-wrapper">
 
-                        <section id="section-12-6-3">
+                        <section id="purchaseCode">
                             <h3>21 Where is My Purchase Code?</h3>
                             <p>To learn about how to find your purchase code. When you buy a product from envato you get a
                                 purchase code. visit the following link:</p>
